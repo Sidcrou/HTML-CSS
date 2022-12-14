@@ -6,7 +6,7 @@
 body {
   min-height: 100%;
   width: 100%;
-  background-image: rgb(0, 0, 0);
+  background-color: grey;
 }
 
 .Menu{
@@ -98,7 +98,8 @@ ul li a:hover {
 iframe{
   width: 70%;
   height: 700px;
-  border: 5px solid rgb(255, 115, 0);
+  border-color: rgb(255, 115, 0);
+  padding: 5%;
   margin-bottom: 10%
 }
 
@@ -114,7 +115,8 @@ iframe{
   margin-bottom: 50px;
   display: block;
   max-width: 100%;
-  border: 5px solid rgb(255, 115, 0);
+  border-color: rgb(255, 115, 0);
+  padding: 5%;
   margin-left: auto;
   margin-right: auto;
   filter: grayscale(0.2);
@@ -127,7 +129,8 @@ iframe{
   display: block;
   height: 800px;
   width: 1300px;
-  border: 5px solid rgb(255, 115, 0);
+  border-color: rgb(255, 115, 0);
+  padding: 5%;
   margin-left: auto;
   margin-right: auto;
   filter: grayscale(0.2);
@@ -138,10 +141,9 @@ iframe{
   font-size: 25px;
   margin-left: auto;
   margin-right: auto;
-  color: whitesmoke;
+  color: black;
   text-align: justify;
   font-family:'Franklin Gothic';
-  border: 5px solid white;
   border-color: rgb(255, 115, 0);
   padding: 5%;
   font-weight: 450;
