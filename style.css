@@ -7,9 +7,7 @@ body {
   min-height: 100%;
   width: 100%;
   background-image: rgb(0, 0, 0);
-
 }
-
 
 .Menu{
 display: flex;
@@ -29,11 +27,13 @@ height: 6%;
 ul {
   text-align: right;
 }   
+
 ul li {
   list-style: none;
   display: inline-block;
   line-height: 6%;
 }   
+
 ul li a {
   display: block;
   text-decoration: none;
@@ -42,6 +42,7 @@ ul li a {
   color: whitesmoke;
   padding: 0 20px;
 }
+
 ul li a:hover {
   color: rgb(255, 136, 0);
 }
@@ -51,6 +52,7 @@ ul li a:hover {
   max-height: 5%;
   max-width: 10%;
 }
+
 .titre{
   text-align: center;
   font-family:'Franklin Gothic';
@@ -93,30 +95,31 @@ ul li a:hover {
   }
 }
 
-
 iframe{
   width: 70%;
   height: 700px;
   border: 5px solid rgb(255, 115, 0);
   margin-bottom: 10%
 }
+
 .Video{
   text-align: center;
   margin-top: 70px;
   margin-bottom: 100px;    
 }
+
 .ImageCentre{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   display: block;
-  height: 30%;
-  width: 70%;
+  max-width: 100%;
   border: 5px solid rgb(255, 115, 0);
   margin-left: auto;
   margin-right: auto;
   filter: grayscale(0.2);
 }
+
 .Carte{
   text-align: center;
   margin-top: 50px;
@@ -129,6 +132,7 @@ iframe{
   margin-right: auto;
   filter: grayscale(0.2);
 }
+
 .cadre{
   width: 60%;
   font-size: 25px;
@@ -145,17 +149,16 @@ iframe{
 }
 
 footer{
-position: fixed;
-left: 20%;
-bottom: 0;
-height: 10%;
-width: 60%;
-background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 255);
-text-align: center;
-font-family:'Franklin Gothic';
-margin-bottom: 0%;
-
+  position: fixed;
+  left: 20%;
+  bottom: 0;
+  height: 10%;
+  width: 60%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family:'Franklin Gothic';
+  margin-bottom: 10%;
 }
 
 .format{
@@ -163,7 +166,6 @@ margin-bottom: 0%;
   margin-right: auto;
   max-width: 80%;
   margin-bottom: 10%;
-
 }
 
 
